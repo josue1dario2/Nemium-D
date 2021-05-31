@@ -19,8 +19,19 @@ body{
   font-family: 'Rubik';
   margin: 0;
 }
-header{
+.header{
+  /* border: 1px solid red; */
+  width: 200px;
+  /* position: absolute;
+  right: -250px; */
   position: sticky;
+  top: 0px;
+
+}
+header{
+  position: absolute;
+  right: -1000px;
+
   inset-block-start: 64px;
   top: 0px;
   width: 208px;
